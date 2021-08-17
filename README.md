@@ -8,10 +8,10 @@ Air Canvas is a hands-free digital drawing canvas that utilizes a Raspberry Pi, 
 The motto of our Air Canvas project resides in the influence of using a simplified form of model-based method, for favouring further modifications far more easily. We proposed this air canvas algorithm supported by landmark alignment under replacement framework. Further beneficial aspects include virtual drawing, writing notes, meeting explanations and further future enhancements as included.
 
 # Proposed Algorithmic Approach
-Step 1: Start reading the frames and convert the captured frames to HSV color space (Easy for color detection).
-Step 2: Prepare the canvas frame and put the respective ink buttons on it.
-Step 3: Adjust the track bar values for finding the mask of the colored marker.
-Step 4: Preprocess the mask with morphological operations (Eroding and dilation).
-Step 5: Detect the contours, find the center coordinates of the largest contour and keep storing them in the array for successive frames (Arrays for drawing points on canvas).
-Step 6: Finally draw the points stored in an array on the frames and canvas.
+* Step 1: Start reading the frames and convert the captured frames to HSV color space (Easy for color detection).
+* Step 2: Prepare the canvas frame and put the respective ink buttons on it.
+* Step 3: Adjust the track bar values for finding the mask of the colored marker.
+* Step 4: Preprocess the mask with morphological operations (Eroding and dilation).
+* Step 5: Detect the contours, find the center coordinates of the largest contour and keep storing them in the array for successive frames (Arrays for drawing points on canvas).
+* Step 6: Finally draw the points stored in an array on the frames and canvas.
 
